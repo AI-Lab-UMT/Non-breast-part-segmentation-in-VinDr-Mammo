@@ -1,4 +1,4 @@
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Standarizimi nuk lidhet vetem me njofjen e paisjes, modalitetit, orientimin, etj, por edhe me eleminimin e erroreve te cilat ndodhen ne imazhet mammografike.
 
@@ -8,4 +8,4 @@ Per kete arsye eleminimi i ketyre artefakteve, te cilat ne i kemi quajtur Errore
 
 Modeli i krijuar synon te njofi keto Errore nepermjet segmentimit dhe te eleminoje ate nga mammografia, duke vendosur vemendjen ne pjesen kryesore te mammografis, e cila ndihmon jo vetem ne identifikimin e zonave te interesit por edhe ne procesin e resize qe perdoret shume si preprocess ne modelet CNN and ViT.
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
