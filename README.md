@@ -1,11 +1,11 @@
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Standarizimi nuk lidhet vetem me njofjen e paisjes, modalitetit, orientimin, etj, por edhe me eleminimin e erroreve te cilat ndodhen ne imazhet mammografike.
+Standardization is not only related to the recognition of the device, modality, or image orientation, but also to the elimination of errors that exist within mammographic images.
 
-Keto probleme nuk lidhen vetem me begraundin ose paisjen mammografike, por edhe me artefakte te tjera te cilat mund te jen pjese e imazhit mammografik gjate perftimit te saj.
-Keto artefakte mund te ndikojne ne performance e modeleve per detektimin ose klasifikimin e kancerit te gjirit duke prodhuar False Positive ne disa raste. Analizimi i 1000 imazheve te para mammografike  ne datasetin publik ‘Vin-Dr mamo’ trregon se keto artefakte ndodhen ne mbi 70% te tyre.
-Per kete arsye eleminimi i ketyre artefakteve, te cilat ne i kemi quajtur Errore duket nje detyre e rendesishme e cila mund te sjelli permirsimin e modeleve te krijuar CAD-e and CAD-i.
+These issues are not limited to the background or the mammography equipment itself, but also include artifacts that may appear in the image during its acquisition. Such artifacts can affect the performance of models used for breast cancer detection or classification, potentially producing false positives in some cases.
 
-Modeli i krijuar synon te njofi keto Errore nepermjet segmentimit dhe te eleminoje ate nga mammografia, duke vendosur vemendjen ne pjesen kryesore te mammografis, e cila ndihmon jo vetem ne identifikimin e zonave te interesit por edhe ne procesin e resize qe perdoret shume si preprocess ne modelet CNN and ViT.
+An analysis of the first 1,000 mammographic images in the public dataset VinDr-Mammo shows that these artifacts are present in more than 70% of the images. For this reason, the removal of these artifacts—referred to here as Errors—represents an important task that could lead to significant improvements in CADe and CADx models.
+
+The proposed model aims to detect these Errors through segmentation and to remove them from the mammogram, thereby focusing attention on the main breast region. This not only facilitates the identification of regions of interest (ROIs) but also improves the resizing process commonly used as a preprocessing step in CNN and ViT models.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
