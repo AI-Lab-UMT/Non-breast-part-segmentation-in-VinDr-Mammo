@@ -1,7 +1,7 @@
 # U-Net Deep Learning for Efficient and Robust Removal of Unwanted Anatomical Structures in Digital Mammographies
 
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Standardization is not only related to the recognition of the device, modality, or image orientation, but also to the elimination of errors that exist within mammographic images.
 
@@ -11,4 +11,4 @@ An analysis of the first 1,000 mammographic images in the public dataset VinDr-M
 
 The proposed model aims to detect these Errors through segmentation and to remove them from the mammogram, thereby focusing attention on the main breast region. This not only facilitates the identification of regions of interest (ROIs) but also improves the resizing process commonly used as a preprocessing step in CNN and ViT models.
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
